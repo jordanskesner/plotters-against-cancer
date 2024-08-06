@@ -18,7 +18,7 @@ git clone https://github.com/jordanskesner/plotters-against-cancer.git
 ```
 
 ## Usage
-1. Start Jupyter Notebook from the project directory:
+1. Start Jupyter Notebook from the project directory.
 2. Open the relevant `.ipynb` notebook files to explore and run the analysis.
 
 # Findings
