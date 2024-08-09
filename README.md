@@ -25,7 +25,7 @@ git clone https://github.com/jordanskesner/plotters-against-cancer.git
 > GitHub README includes either examples of the application, or the results and a summary of the analysis
 
 1. The cancer mortality rate shows a moderate negative correlation with the percentage of people over 25 who hold a Bachelor's degree.
-![finding1](./results/figures/cancer_mortality_vs_bachelors_correlation_table.png)
+![finding1](./results/tables/cancer_mortality_vs_bachelors_correlation_table.png)
 ![finding1](./results/figures/cancer_mortality_vs_bachelors_scatter.png)
 
 # Acknowledgments
