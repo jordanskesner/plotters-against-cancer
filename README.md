@@ -28,6 +28,10 @@ git clone https://github.com/jordanskesner/plotters-against-cancer.git
 ![finding1](./results/tables/cancer_mortality_vs_bachelors_correlation_table.png)
 ![finding1](./results/figures/cancer_mortality_vs_bachelors_scatter.png)
 
+2. The South exhibits the highest cancer mortality rates across the United States
+![finding2](./results/figures/county_level_cancer_mortality_rates.png)
+![finding2](./results/figures/region_level_cancer_mortality_rates.png)
+
 # Acknowledgments
 
 This project utilizes the [Uncovering Trends in Health Outcomes and Socioeconomic Factors dataset](https://www.kaggle.com/datasets/thedevastator/uncovering-trends-in-health-outcomes-and-socioec/data) available on Kaggle.
