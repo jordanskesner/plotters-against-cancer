@@ -24,9 +24,22 @@ git clone https://github.com/jordanskesner/plotters-against-cancer.git
 # Findings
 > GitHub README includes either examples of the application, or the results and a summary of the analysis
 
+1. The cancer mortality rate shows a moderate negative correlation with the percentage of people over 25 whose highest education obtained is a bachelor's degree.
+![finding1](./results/tables/cancer_mortality_vs_bachelors_correlation_table.png)
+![finding1](./results/figures/cancer_mortality_vs_bachelors_scatter.png)
+
+2. The cancer mortality rate shows a moderate positive correlation with the percentage of people over 25 whose highest education obtained is a high school diploma.
+![finding2](./results/figures/cancer_mortality_vs_high_school_scatter.png)
+
+3. The South exhibits the highest cancer mortality rates across the United States.
+![finding3](./results/figures/county_level_cancer_mortality_rates.png)
+![finding3](./results/figures/region_level_cancer_mortality_rates.png)
+
 # Acknowledgments
 
 This project utilizes the [Uncovering Trends in Health Outcomes and Socioeconomic Factors dataset](https://www.kaggle.com/datasets/thedevastator/uncovering-trends-in-health-outcomes-and-socioec/data) available on Kaggle.
+
+Most of the data preparation process can be viewed [here](https://data.world/nrippner/cancer-trials).
 
 # Contributors
 
