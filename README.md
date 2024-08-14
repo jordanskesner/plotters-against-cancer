@@ -35,6 +35,12 @@ git clone https://github.com/jordanskesner/plotters-against-cancer.git
 ![finding3](./results/figures/county_level_cancer_mortality_rates.png)
 ![finding3](./results/figures/region_level_cancer_mortality_rates.png)
 
+4. Insurance coverage types may have a significant impact on cancer death rates, with public insurance showing a stronger positive correlation with higher cancer death rates.
+![finding4](./results/figures/correlation_between_cancer_statistics_and_insurance_coverage.png)
+
+5. The number of clinical trials per capita has a weak correlation with cancer statistics, suggesting that other factors may play a more significant role in influencing cancer outcomes.
+![finding5](./results/figures/correlation_between_cancer_statistics_and_number_of_clinical_trials_per_capita_in_the_given_county.png)
+
 # Acknowledgments
 
 This project utilizes the [Uncovering Trends in Health Outcomes and Socioeconomic Factors dataset](https://www.kaggle.com/datasets/thedevastator/uncovering-trends-in-health-outcomes-and-socioec/data) available on Kaggle.
