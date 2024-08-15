@@ -22,6 +22,3 @@ individual
 Notes on data processing:
 - All rows with NA values were dropped
 - Outliers were trimmed individually from each data column using the 1.5*IQR method
-
-![finding1](./results/figures/age_incidence.png)
-![finding2](./results/figures/age_incidence_correlations.png)
