@@ -48,6 +48,9 @@ git clone https://github.com/jordanskesner/plotters-against-cancer.git
 ![finding7](./results/figures/age_incidence_correlations.png)
 ![finding7](./results/figures/age_incidence.png)
 
+8. (GPT) There are varying correlations between average annual cancer count and racial demographics: a weak negative correlation of -0.14 with the percentage of the White population, a very weak positive correlation of 0.03 with the percentage of the Black population, a moderate positive correlation of 0.44 with the percentage of the Asian population, and a weak positive correlation of 0.21 with the percentage of other races.
+
+![finding8](./results/figures/cancer_race_correlation_heatmap.png)
 
 # Acknowledgments
 
