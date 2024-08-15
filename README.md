@@ -1,11 +1,9 @@
 # About The Project
-> GitHub README file includes a concise project overview (2 points).
 
 This project performs an exploratory data analysis on a Kaggle dataset that includeds an abundant set of socioeconomic and demographic factors.
 The analysis will examine how these factors influence health outcomes.
 
 # Getting Started
-> GitHub README file includes detailed usage and installation instructions (2 points).
 
 ## Installation
 
@@ -22,7 +20,6 @@ git clone https://github.com/jordanskesner/plotters-against-cancer.git
 2. Open the relevant `.ipynb` notebook files to explore and run the analysis.
 
 # Findings
-> GitHub README includes either examples of the application, or the results and a summary of the analysis
 
 1. The cancer mortality rate shows a moderate negative correlation with the percentage of people over 25 whose highest education obtained is a bachelor's degree.
 ![finding1](./results/tables/cancer_mortality_vs_bachelors_correlation_table.png)
