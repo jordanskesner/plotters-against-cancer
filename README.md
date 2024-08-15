@@ -41,6 +41,10 @@ git clone https://github.com/jordanskesner/plotters-against-cancer.git
 5. The number of clinical trials per capita has a weak correlation with cancer statistics, suggesting that other factors may play a more significant role in influencing cancer outcomes.
 ![finding5](./results/figures/correlation_between_cancer_statistics_and_number_of_clinical_trials_per_capita_in_the_given_county.png)
 
+6. There is a strong correlation between cancer incidence and median age, with a correlation coefficient of 0.63 overall, 0.59 for median male age, and 0.62 for median female age.
+![finding6](./results/figures/age_incidence_correlations.png)
+![finding6](./results/figures/age_incidence.png)
+
 # Acknowledgments
 
 This project utilizes the [Uncovering Trends in Health Outcomes and Socioeconomic Factors dataset](https://www.kaggle.com/datasets/thedevastator/uncovering-trends-in-health-outcomes-and-socioec/data) available on Kaggle.
