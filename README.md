@@ -21,33 +21,30 @@ git clone https://github.com/jordanskesner/plotters-against-cancer.git
 
 # Findings
 
-1. The cancer mortality rate shows a moderate negative correlation with the percentage of people over 25 whose highest education obtained is a bachelor's degree.
-![finding1](./results/tables/cancer_mortality_vs_bachelors_correlation_table.png)
-![finding1](./results/figures/cancer_mortality_vs_bachelors_scatter.png)
+1. Populations with higher median income have lower death rates.
+![finding1](./results/figures/MedianIncome_ScatterReg.png)
 
-2. The cancer mortality rate shows a moderate positive correlation with the percentage of people over 25 whose highest education obtained is a high school diploma.
-![finding2](./results/figures/cancer_mortality_vs_high_school_scatter.png)
+2. Populations that have a greater percentage of people over 25 with a Bachelor's degree will see lower percentage of cancer deaths. The reverse is also moderately true. Populations that have a greater percentage of people over 25 with only a high school degree will see higher percentage of cancer deaths.
+![finding2](./results/figures/BachelorDegree_ScatterReg.png)
+![finding2](./results/figures/HighSchool_ScatterReg.png)
 
-3. Populations with higher median income have lower death rates.
-![finding3](./results/figures/MedianIncome_and_DeathRate_ScatterLine.png)
+3. The South exhibits the highest cancer mortality rates across the United States.
+![finding3](./results/figures/county_level_cancer_mortality_rates.png)
+![finding3](./results/figures/region_level_cancer_mortality_rates.png)
 
-4. The South exhibits the highest cancer mortality rates across the United States.
-![finding4](./results/figures/county_level_cancer_mortality_rates.png)
-![finding4](./results/figures/region_level_cancer_mortality_rates.png)
+4. Insurance coverage types may have a significant impact on cancer death rates, with public insurance showing a stronger positive correlation with higher cancer death rates.
+![finding4](./results/figures/correlation_between_cancer_statistics_and_insurance_coverage.png)
 
-7. Insurance coverage types may have a significant impact on cancer death rates, with public insurance showing a stronger positive correlation with higher cancer death rates.
-![finding5](./results/figures/correlation_between_cancer_statistics_and_insurance_coverage.png)
+5. The number of clinical trials per capita has a weak correlation with cancer statistics, suggesting that other factors may play a more significant role in influencing cancer outcomes.
+![finding5](./results/figures/correlation_between_cancer_statistics_and_number_of_clinical_trials_per_capita_in_the_given_county.png)
 
-6. The number of clinical trials per capita has a weak correlation with cancer statistics, suggesting that other factors may play a more significant role in influencing cancer outcomes.
-![finding6](./results/figures/correlation_between_cancer_statistics_and_number_of_clinical_trials_per_capita_in_the_given_county.png)
+6. There is a strong correlation between cancer incidence and median age, with a correlation coefficient of 0.63 overall, 0.59 for median male age, and 0.62 for median female age.
+![finding6](./results/figures/age_incidence_correlations.png)
+![finding6](./results/figures/age_incidence.png)
 
-7. There is a strong correlation between cancer incidence and median age, with a correlation coefficient of 0.63 overall, 0.59 for median male age, and 0.62 for median female age.
-![finding7](./results/figures/age_incidence_correlations.png)
-![finding7](./results/figures/age_incidence.png)
+7. (GPT) There are varying correlations between average annual cancer count and racial demographics: a weak negative correlation of -0.14 with the percentage of the White population, a very weak positive correlation of 0.03 with the percentage of the Black population, a moderate positive correlation of 0.44 with the percentage of the Asian population, and a weak positive correlation of 0.21 with the percentage of other races.
 
-8. (GPT) There are varying correlations between average annual cancer count and racial demographics: a weak negative correlation of -0.14 with the percentage of the White population, a very weak positive correlation of 0.03 with the percentage of the Black population, a moderate positive correlation of 0.44 with the percentage of the Asian population, and a weak positive correlation of 0.21 with the percentage of other races.
-
-![finding8](./results/figures/cancer_race_correlation_heatmap.png)
+![finding7](./results/figures/cancer_race_correlation_heatmap.png)
 
 # Acknowledgments
 
