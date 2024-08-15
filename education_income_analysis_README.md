@@ -20,16 +20,16 @@
 * Looked at correlation between income and cancer rates. 
 * Median income has moderate negative correlation to death rates.
 * Plot the linear regression between median income and cancer deaths.
-![alt text](MedianIncome_and_DeathRate_ScatterLine-2.png)
+![alt text](MedianIncome_ScatterReg.png)
 
 #### 2A Analyze income and education.
 * Looked at correlation between education and cancer rates. 
 * Moderate negative correlation between death rates and Bachelor's Degree for people aged 25 and over.
 * Plot the linear regression between death rates and bachelor's degree.
 * Moderate negative correlation between death rates and High School for people aged 25 and over, so plotting this linear regression.
-![alt text](BachelorDegree_Deaths_ScatterReg-1-1.png)
+![alt text](BachelorDegree_ScatterReg.png)
 
-![alt text](HighSchool_Deaths_ScatterReg-2.png)
+![alt text](HighSchool_ScatterReg.png)
 
 ### Step 3: Analyze data by US state.
 * Group data by the new state column.
@@ -37,7 +37,7 @@
 * Combine all the ranks in one DataFrame and plot the bar graphs of the 3 ranks.
 * Note that California has the largest population but a low rank of 9 and 6 for cancer incidence and death rates.
 * Note that Vermont has a small population (rank 4), but high ranks for cancer incidence and death - 41 and 27 respectively.
-![alt text](StateBarGraph-1.png)
+![alt text](State_Bar_Graph.png)
 
 ### Conclusions:
 * Populations with higher median income have lower death rates.
